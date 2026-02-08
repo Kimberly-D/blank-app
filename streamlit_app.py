@@ -47,7 +47,7 @@ def main():
             current_token = tokens[0]
             
             # UPDATE THIS with your actual app URL
-            base_url = "https://your-app-name.streamlit.app/"
+            base_url = "https://blank-app-170h3hh4z91.streamlit.app/"
             full_url = f"{base_url}?token={current_token}"
             
             qr = qrcode.make(full_url)
