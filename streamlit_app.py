@@ -8,7 +8,7 @@ import os
 
 # --- CONFIGURATION ---
 SECRET_SALT = "research_dev_2026" 
-REFRESH_RATE = 60  # Increased to 30s for better reliability in class
+REFRESH_RATE = 15  # Increased to 30s for better reliability in class
 LOG_FILE = "attendance_log.csv"
 
 def get_valid_tokens():
